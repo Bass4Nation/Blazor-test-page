@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "sh3p05iMYBw86JgoPM3btgh8kT5wyEha9gyaDneOm/o=",
+  "Hash": "pHJajUn1J1D3nPuwGyWACzKzRFLOMqajmOUuardLRk4=",
   "Source": "web-test-b4n",
   "BasePath": "_content/web-test-b4n",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "web-test-b4n\\wwwroot",
       "Source": "web-test-b4n",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\obj\\Debug\\net7.0\\scopedcss\\bundle\\web-test-b4n.styles.css",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\obj\\Debug\\net7.0\\scopedcss\\bundle\\web-test-b4n.styles.css",
       "SourceId": "web-test-b4n",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "web-test-b4n.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\obj\\Debug\\net7.0\\scopedcss\\bundle\\web-test-b4n.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\obj\\Debug\\net7.0\\scopedcss\\bundle\\web-test-b4n.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\web-test-b4n.bundle.scp.css",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\web-test-b4n.bundle.scp.css",
       "SourceId": "web-test-b4n",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "web-test-b4n.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\web-test-b4n.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\web-test-b4n.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\site.css",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\favicon.png",
       "SourceId": "web-test-b4n",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
       "BasePath": "_content/web-test-b4n",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
