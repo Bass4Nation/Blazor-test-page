@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\wwwroot",
-    "\\wwwroot\\css"
+    "\\Shared"
   ],
-  "SelectedNode": "\\wwwroot\\css\\site.css",
+  "SelectedNode": "\\Shared\\NavMenu.razor",
   "PreviewInSolutionExplorer": false
 }

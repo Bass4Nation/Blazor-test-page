@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Evl7NWPU6JHvSdFElImqg2KDW5cR9FIGH6igUthMrjA=",
+  "Hash": "HTUAworVVNYRLpbez2iaknNkkbQgTwp2f/2qG5sESU0=",
   "Source": "web-test-b4n",
   "BasePath": "_content/web-test-b4n",
   "Mode": "Default",
@@ -83,40 +83,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
-      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\images\\Bulb with of solar panel_edited.webp",
-      "SourceId": "web-test-b4n",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
-      "BasePath": "_content/web-test-b4n",
-      "RelativePath": "css/images/Bulb with of solar panel_edited.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\images\\Bulb with of solar panel_edited.webp"
-    },
-    {
-      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\images\\zolw-liggende-rgb.webp",
-      "SourceId": "web-test-b4n",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
-      "BasePath": "_content/web-test-b4n",
-      "RelativePath": "css/images/zolw-liggende-rgb.webp",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\images\\zolw-liggende-rgb.webp"
     },
     {
       "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
@@ -304,6 +270,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\images\\Bulb with of solar panel_edited.webp",
+      "SourceId": "web-test-b4n",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
+      "BasePath": "_content/web-test-b4n",
+      "RelativePath": "images/Bulb with of solar panel_edited.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Bulb with of solar panel_edited.webp"
+    },
+    {
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\images\\zolw-liggende-rgb.webp",
+      "SourceId": "web-test-b4n",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
+      "BasePath": "_content/web-test-b4n",
+      "RelativePath": "images/zolw-liggende-rgb.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\zolw-liggende-rgb.webp"
     }
   ]
 }

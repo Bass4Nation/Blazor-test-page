@@ -13,14 +13,6 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\images\\Bulb with of solar panel_edited.webp",
-      "PackagePath": "staticwebassets\\css\\images\\Bulb with of solar panel_edited.webp"
-    },
-    {
-      "Id": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\images\\zolw-liggende-rgb.webp",
-      "PackagePath": "staticwebassets\\css\\images\\zolw-liggende-rgb.webp"
-    },
-    {
       "Id": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
@@ -63,6 +55,14 @@
     {
       "Id": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\images\\Bulb with of solar panel_edited.webp",
+      "PackagePath": "staticwebassets\\images\\Bulb with of solar panel_edited.webp"
+    },
+    {
+      "Id": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\images\\zolw-liggende-rgb.webp",
+      "PackagePath": "staticwebassets\\images\\zolw-liggende-rgb.webp"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.web-test-b4n.props",
