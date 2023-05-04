@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\web-test-b4n.sln",
+  "SelectedNode": "\\wwwroot\\css\\site.css",
   "PreviewInSolutionExplorer": false
 }
