@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HTUAworVVNYRLpbez2iaknNkkbQgTwp2f/2qG5sESU0=",
+  "Hash": "TEF79ezfqA91RdiALTrVHtQ3LtYTCQrdaZ+wuUWqUT0=",
   "Source": "web-test-b4n",
   "BasePath": "_content/web-test-b4n",
   "Mode": "Default",
@@ -253,6 +253,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\styles.css",
+      "SourceId": "web-test-b4n",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\",
+      "BasePath": "_content/web-test-b4n",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
       "Identity": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\favicon.png",

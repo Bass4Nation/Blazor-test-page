@@ -53,6 +53,10 @@
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\css\\styles.css",
+      "PackagePath": "staticwebassets\\css\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },

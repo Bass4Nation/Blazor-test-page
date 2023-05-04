@@ -1,0 +1,90 @@
+﻿/* --------------- Variables -------- */
+:root {
+    --primary-color: white;
+    --primary-font-color: black;
+    --secondary-color: red;
+    --hover-color: #e9ecef;
+    --nav-padding: 1rem;
+}
+
+/* -------------- Global ----------*/
+* {
+    /*    border: 1px dotted black;*/
+}
+
+
+.title-group {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-areas: "title-image titlepage .";
+}
+
+/*--------- Text title top page ---------------*/
+.titlepage {
+    grid-area: titlepage;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    font-weight: bold;
+}
+
+.title-image {
+    grid-area: title-image;
+    /* Add any additional styling for the logo, such as max-width, max-height, or object-fit, if needed */
+}
+
+
+/*----------- All a tag link*/
+a {
+    text-decoration: none;
+    color: var(--primary-font-color);
+}
+
+.nav-container {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-item {
+    text-decoration: none;
+    color: #212529;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+}
+
+    .navbar-item:hover {
+        background-color: #e9ecef;
+        text-decoration: none;
+        color: #212529;
+    }
+
+.img-big {
+
+width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+
+
+
+
+/* Responsive layout for mobile devices */
+@media (max-width: 767px) {
+    .title-group {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "title-image"
+            "titlepage";
+    }
+}
