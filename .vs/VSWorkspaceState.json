@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Shared"
+    "\\Shared",
+    "\\wwwroot",
+    "\\wwwroot\\css"
   ],
-  "SelectedNode": "\\Shared\\MainLayout.razor",
+  "SelectedNode": "\\wwwroot\\css\\styles.css",
   "PreviewInSolutionExplorer": false
 }
