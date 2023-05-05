@@ -9,65 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = web_test_b4n
 build_property.RootNamespace = web_test_b4n
-build_property.ProjectDir = C:\Users\Bass4Nation\Source\Repos\Bass4Nation\Blazor-test-page\
+build_property.ProjectDir = C:\Users\Bass4Nation\Desktop\Blazor-test-page\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Bass4Nation\Source\Repos\Bass4Nation\Blazor-test-page
+build_property.MSBuildProjectDirectory = C:\Users\Bass4Nation\Desktop\Blazor-test-page
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/App.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Pages/Counter.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Pages/FetchData.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Pages/Index.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Pages/Kurs.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Pages/Kurs.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcS3Vycy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Pages/Navigation.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Pages/Navigation.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTmF2aWdhdGlvbi5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Shared/CustomFooter.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Shared/CustomFooter.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEN1c3RvbUZvb3Rlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Shared/CustomNavMenu.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Shared/CustomNavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEN1c3RvbU5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Shared/SurveyPrompt.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/_Imports.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Shared/MainLayout.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-fhjga0cjge
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Shared/NavMenu.razor]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-8k3ei6mi50
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Pages/Error.cshtml]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Bass4Nation/Source/Repos/Bass4Nation/Blazor-test-page/Pages/_Host.cshtml]
+[C:/Users/Bass4Nation/Desktop/Blazor-test-page/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

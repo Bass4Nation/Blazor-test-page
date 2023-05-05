@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nMXS9vYA91Tl4ZOZaibQdra2tdurzJMqHJjZR29TDLlEu54GuQcsDS0i8oonNcrqeGFZ1JhZnKzzAuGcRddYMA==",
+  "dgSpecHash": "kysrJ6qlVhRV6nNu+t1pbq6SX85bbU27ZutPYLRCL6XOKNXWeMzd3ZuQF9/5XR0JBawCvjNbncz9Xqp+08bb2A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bass4Nation\\Source\\Repos\\Bass4Nation\\Blazor-test-page\\web-test-b4n.csproj",
+  "projectFilePath": "C:\\Users\\Bass4Nation\\Desktop\\Blazor-test-page\\web-test-b4n.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bass4Nation\\.nuget\\packages\\microsoft.net.build.containers\\0.3.2\\microsoft.net.build.containers.0.3.2.nupkg.sha512"
   ],

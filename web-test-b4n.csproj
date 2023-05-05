@@ -8,4 +8,8 @@
     <EnableSdkContainerSupport>true</EnableSdkContainerSupport>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\sosial-media-icons\" />
+  </ItemGroup>
+
 </Project>
