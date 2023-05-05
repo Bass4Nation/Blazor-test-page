@@ -1,23 +1,40 @@
-﻿<div class="nav-container">
+﻿@using Microsoft.AspNetCore.Components
+
+<div class="nav-container">
     <nav class="navbar">
-        <NavLink class="navbar-item" href="">
-            <span class="oi oi-home" aria-hidden="true"></span> Forside
-        </NavLink>
-        <NavLink class="navbar-item" href="kurs">
-            <span class="oi oi-plus" aria-hidden="true"></span> Opplæring
-        </NavLink>
-        <NavLink class="navbar-item" href="simulering">
-            <span class="oi oi-list-rich" aria-hidden="true"></span> Simulering
-        </NavLink>
-        <NavLink class="navbar-item" href="konsultasjon">
-            <span class="oi oi-list-rich" aria-hidden="true"></span> Konsultasjon
-        </NavLink>
-        <NavLink class="navbar-item" href="om-oss">
-            <span class="oi oi-list-rich" aria-hidden="true"></span> Om oss
-        </NavLink>
-        <NavLink class="navbar-item" href="logg-in">
-            <span class="oi oi-list-rich" aria-hidden="true"></span> Login
-        </NavLink>
+        <ul class="no-bullet">
+            <li>
+                <NavLink class="navbar-item" href="" Match="NavLinkMatch.All">
+                   Forside
+                </NavLink>
+            </li>
+            <li>
+                <NavLink class="navbar-item" href="kurs">
+                    Opplæring
+                </NavLink>
+            </li>
+            <li>
+
+                <NavLink class="navbar-item" href="simulering">
+                 Simulering
+                </NavLink>
+            </li>
+            <li>
+                <NavLink class="navbar-item" href="konsultasjon">
+                   Konsultasjon
+                </NavLink>
+            </li>
+            <li>
+                <NavLink class="navbar-item" href="om-oss">
+                   Om oss
+                </NavLink>
+            </li>
+            <li>
+                <NavLink class="navbar-item" href="logg-in">
+                 Login
+                </NavLink>
+            </li>
+        </ul>
         <!-- Add more NavLink components for additional pages here -->
     </nav>
 </div>

@@ -10,6 +10,7 @@
 /* -------------- Global ----------*/
 * {
     /*    border: 1px dotted black;*/
+    font-family: 'Times New Roman', Times, serif;
 }
 
 
@@ -28,7 +29,6 @@
 .titlepage {
     grid-area: titlepage;
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
     font-weight: bold;
 }
 .titlepage:hover {
@@ -50,22 +50,36 @@ a {
 }
 
 .nav-container {
-    background-color: #f8f9fa;
     padding: 1rem;
 }
 
 .navbar {
     display: flex;
+    flex-wrap:wrap;
+    flex-direction:row;
     justify-content: center;
     align-items: center;
     gap: 1rem;
+    color: red;
 }
+    .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    .navbar a.active, a:hover {
+        color: var(--primary-font-color);
+        border-top: 3px solid black;
+    }
+
 
 .navbar-item {
     text-decoration: none;
-    color: #212529;
+    color: rgb(111, 111, 111);
     padding: 0.5rem 1rem;
-    border-radius: 0.25rem;
+    margin: 0 5px;
 }
 
     .navbar-item:hover {
@@ -73,6 +87,14 @@ a {
         text-decoration: none;
         color: #212529;
     }
+
+/* Remove bullet (dot) from the list */
+.no-bullet {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
 
 .img-big {
     width: 100%;
