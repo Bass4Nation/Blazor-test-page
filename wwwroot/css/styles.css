@@ -123,10 +123,11 @@ a {
 
 
 .img-big {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    object-position: center;
+    aspect-ratio: 16/9; /* 16:9  display*/ 
+    width:70%;
+    display: grid;
+    place-items: center;
+    margin: 0 auto;
 }
 
 /* ------------ Login form + overlay -----------*/
@@ -159,6 +160,183 @@ a {
 #loginOverlay:not(.hidden) ~ * {
     pointer-events: none;
 }
+
+
+/* ----------------- Kurs page ---------------- */
+
+
+.kurs-page {
+    display:grid;
+grid-template-columns: 1fr;
+grid-template-areas:
+    "kurs-part1"
+    "kurs-part2"
+    "kurs-part3";
+}
+
+.kurs-page1 {
+grid-area: kurs-part1;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: "kurs-text kurs-image";
+}
+
+.kurs-page2 {
+grid-area: kurs-part2;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: "kurs-image kurs-text";
+}
+
+.kurs-page3 {
+grid-area: kurs-part3;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: "kurs-text kurs-image";
+}
+
+.kurs-text {
+    grid-area: kurs-text;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kurs-text ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.kurs-image {
+    grid-area: kurs-image;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* --------------- Simulering ------------------ */
+
+.simulering-page {
+    display:grid;
+grid-template-columns: 1fr;
+grid-template-areas:
+    "simulering-part1"
+    "simulering-part2"
+    "simulering-part3";
+}
+
+.simulering-part1 {
+grid-area: simulering-part1;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: "simulering-text simulering-image";
+}
+
+.simulering-part2 {
+grid-area: simulering-part2;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: "simulering-image simulering-text";
+}
+
+.simulering-part3 {
+
+grid-area: simulering-part3;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas: "simulering-text simulering-image";
+}
+
+
+.simulering-text {
+    grid-area: simulering-text;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+    .simulering-text ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+.simulering-img {
+grid-area: simulering-image;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* ----------------- Konsultasjon ------------- */
+
+.konsultasjon-page {
+    display:grid;
+grid-template-columns: 1fr;
+grid-template-areas:
+    "konsultasjon-part1"
+    "konsultasjon-part2"
+    "konsultasjon-part3";
+}
+
+.konsultasjon-part1 {
+    grid-area: konsultasjon-part1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "konsultasjon-image konsultasjon-text";
+}
+
+.konsultasjon-part2 {
+    grid-area: konsultasjon-part2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "konsultasjon-text konsultasjon-image";
+}
+
+.konsultasjon-part3 {
+    grid-area: konsultasjon-part3;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+        "konsultasjon-text"
+        "konsultasjon-image";
+}
+
+.konsultasjon-text {
+    grid-area: konsultasjon-text;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.konsultasjon-img{
+    grid-area: konsultasjon-image;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---------------- Om oss ---------------- */
+
+
+
 
 /* -------------- Footer --------------- */
 footer {
@@ -195,7 +373,8 @@ grid-area: footer-part2;
 .social-media-footer {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: flex-end;
     gap: 10rem;
 }
     .social-media-footer a {
@@ -241,6 +420,4 @@ grid-area: footer-part2;
             "footer-part2";
         justify-items: center;
     }
-
-
 }

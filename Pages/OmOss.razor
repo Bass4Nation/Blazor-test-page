@@ -1,0 +1,65 @@
+﻿@page "/om-oss"
+@using web_test_b4n.Models
+
+<div class="om-oss-page">
+	<div class="om-oss-part1"></div>
+	<div class="om-oss-part2">
+		@foreach (var person in staffMembers)
+		{
+			<div class="card">
+				<img src="@person.ImageUrl" alt="@person.Name" />
+				<h3 class="card-name">@person.Name</h3>
+				<p class="job-title">@person.JobTitle</p>
+				@foreach (var about in person.About)
+				{
+					<p class="about-person">@about</p>
+				}
+			</div>
+		}
+	</div>
+</div>
+
+@code {
+
+	private List<Person> staffMembers = new List<Person>
+	{
+		new Person {
+			Name = "Frode Lindmo",
+			JobTitle = "Daglig leder",
+			About = new List<string> {"Jobbet i solenergibransjen siden 2015.","Holder kurs på Solarskolen og har lang erfaring innenfor montering."},
+			ImageUrl = "/images/om-oss/Frode Lindmo.webp"
+		},
+				new Person {
+			Name = "Yngvar Søetorp",
+			JobTitle = "Senior partner",
+			About = new List<string> { "Jobbet i solenergibransjen siden 2008.","Sittet i styret i Norsk Solenergiforening i en årrekke."},
+			ImageUrl = "/images/om-oss/Yngvar Søetorp.webp"
+		},
+				new Person {
+			Name = "Kristoffer Strømmen",
+			JobTitle = "Teknisk sjef",
+			About = new List<string> { "M.Sc. Material Technology","Sivilingeniør i materialteknologi"},
+			ImageUrl = "/images/om-oss/Kristoffer Strømmen.webp"
+		},
+				new Person {
+			Name = "Christopher Søetorp",
+			JobTitle = "Økonomisjef",
+			About = new List<string> { "Bachelor i politisk økonomi","Bachelor i økonomi - regnskap"},
+			ImageUrl = "/images/om-oss/Christopher Søetorp.webp"
+		}
+	};
+
+	private List<string> aboutZolw = new List<string>
+{
+	"Zolw - et uavhengig produkt og kompetansesenter innen solenergibransjen",
+	"Solenergi er blant de mest spennende fagområdene i verden. Teknologien utvikler seg rekordraskt, blir stadig bedre, billigere og mer utbredt på næringsbygg og private eneboliger i Norge.",
+	"Den raske utviklingen stiller krav til norske bedrifter om å holde seg oppdatert på den faglige utviklingen, produktspekter, materialvalg og teknologi for å sikre at de beste løsningene blir installert i det norske markedet.",
+	"For å hjelpe norske installatører med dette ble ZOLW AS opprettet.",
+	"Zolw AS er et norsk kompetanseselskap innen solenergi. Selskapet driver med kurs og opplæringsvirksomhet for foreninger, næringsliv og offentlige aktører.",
+	"Zolw hjelper også andre konsulentselskap, det offentlige og installatører o.a. med hjelp til prosjektering, anbudsskriving og dokumentasjon av solenergianlegg. ",
+	"​Zolw er også ledende på kunnskap om produkter og utviklingen i hele solenergibransjen. Selskapet utvikler også innovative løsninger selv som Zolw sine samarbeidspartnere drar nytte av.",
+	"I tillegg er Zolw med ute på byggeplass for å veilede og kvalitetssikre selve installeringen.",
+	"Zolw har som motto å fremme solenergi og sikre den beste kvaliteten på solenergianlegg."
+};
+
+}
