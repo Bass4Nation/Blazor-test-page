@@ -1,0 +1,23 @@
+﻿<div>
+@if (showLogin)
+{
+    <div> 
+    <button @onclick="ShowLogin">Tilbake til siden</button>
+    <LoginForm />
+    </div>
+}
+else
+
+{
+    <button @onclick="ShowLogin"><h3>Medlemspålogging</h3></button>
+}
+</div>
+
+@code {
+    private bool showLogin = false;
+
+    private void ShowLogin()
+    {
+        showLogin = !showLogin;
+    }
+}

@@ -3,14 +3,26 @@
 <PageTitle>web-test-b4n</PageTitle>
 
 <div class="page">
-    <NavLink class="title-group" href="">
-        <img class="title-image" src="images/zolw-liggende-rgb.webp" alt="Zolw AS" />
-        <h1 class="titlepage" >Løsninger for solenergibransjen!</h1>
-    </NavLink>
+    <div class="header-top">
+        <div class="title-group">
+            <NavLink href="">
+                <img class="title-image" src="images/zolw-liggende-rgb.webp" alt="Zolw AS" />
+            </NavLink>
+            <NavLink hreg="">
+                <h1 class="titlepage">Løsninger for solenergibransjen!</h1>
+            </NavLink>
+            <div class="language-selector">
+                <LanguageSelector />
+            </div>
+            <div class="membersportal">
+                <LoginOverlay />
+            </div>
+        </div>
+    </div>
+
     <div class="top-navigation">
         <CustomNavMenu />
     </div>
-
     <main>
 @*        <div class="top-row px-4">
             <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>

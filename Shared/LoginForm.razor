@@ -1,0 +1,31 @@
+﻿<div class="log-in-div">
+    <div class="log-in-form">
+        <lable>Epost: </lable>
+        <input type="text" @bind="email" />
+        <lable>Passord: </lable>
+        <input type="password" @bind="password"/> 
+        <button  @onclick="ShowForgottenPassword">Glemt passord?</button>
+        <button>Logg på</button>
+    </div>
+</div>
+
+@if (forgottenPassword)
+{
+    <div class="forgotten-password-div">
+        <lable>Epost: </lable>
+        <input type="text" @bind="forgottenPasswordEmail"/>
+        <button>Send</button>
+    </div>
+}
+
+@code {
+    private bool forgottenPassword = false;
+    private string email = string.Empty;
+    private string password = string.Empty;
+    private string forgottenPasswordEmail = string.Empty;
+
+    private void ShowForgottenPassword()
+    {
+        forgottenPassword = !forgottenPassword;
+    }
+}

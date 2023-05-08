@@ -7,17 +7,30 @@
     --nav-padding: 1rem;
 }
 
+.page {
+display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "navigation"
+        "main"
+        "footer";
+    min-height: 100vh;
+}
+
+
+
 /* -------------- Global ----------*/
 * {
     /*    border: 1px dotted black;*/
     font-family: 'Times New Roman', Times, serif;
 }
 
-
 .title-group {
+    grid-area: header;
     display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-template-areas: "title-image titlepage .";
+    grid-template-columns: auto 1fr auto auto;
+    grid-template-areas: "title-image titlepage language-selector membersportal";
     text-decoration: none;
 }
     .title-group:hover {
@@ -41,6 +54,18 @@
     grid-area: title-image;
     /* Add any additional styling for the logo, such as max-width, max-height, or object-fit, if needed */
 }
+.language-selector {
+    grid-area: language-selector;
+}
+
+.membersportal {
+    grid-area: membersportal;
+}
+
+main {
+grid-area: main;
+    padding: 1rem;
+}
 
 
 /*----------- All a tag link*/
@@ -50,6 +75,7 @@ a {
 }
 
 .nav-container {
+    grid-area: navigation;
     padding: 1rem;
 }
 
@@ -103,6 +129,92 @@ a {
     object-position: center;
 }
 
+/* ------------ Login form + overlay -----------*/
+.hidden {
+    display: none;
+}
+
+.log-in-div {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.log-in-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Disable pointer events on elements when the overlay is visible */
+#loginOverlay:not(.hidden) ~ * {
+    pointer-events: none;
+}
+
+/* -------------- Footer --------------- */
+footer {
+grid-area: footer;
+    padding: 1rem;
+}
+
+
+.custom-footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "footer-part1 footer-part2";
+}
+
+.footer-part1{
+    grid-area: footer-part1;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-part2 {
+grid-area: footer-part2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10rem;
+}
+    .social-media-footer a {
+        color: rgb(172, 172, 172);
+        padding: 1rem;
+        border-top: 35px solid black;
+    }
+
+.contactinfo-footer {
+    background-color: black;
+    color: rgb(172, 172, 172);
+    padding: 1rem;
+
+}
+.contactinfo-footer a {
+    color: rgb(172, 172, 172);
+}
+  
+
 
 
 
@@ -115,7 +227,20 @@ a {
     .title-group {
         grid-template-columns: 1fr;
         grid-template-areas:
+            "language-selector"
             "title-image"
-            "titlepage";
+            "titlepage"
+            "membersportal";
+        /* align all areas in center */
+        justify-items: center;
     }
+    .custom-footer {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "footer-part1"
+            "footer-part2";
+        justify-items: center;
+    }
+
+
 }
