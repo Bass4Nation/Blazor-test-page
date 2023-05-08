@@ -95,10 +95,11 @@ a {
         justify-content: space-around;
         padding: 10px;
     }
-    .navbar a.active, a:hover {
+    .navbar a.active, .navbar a:hover {
         color: var(--primary-font-color);
         border-top: 3px solid black;
     }
+
 
 
 .navbar-item {
@@ -122,13 +123,7 @@ a {
 
 
 
-.img-big {
-    aspect-ratio: 16/9; /* 16:9  display*/ 
-    width:70%;
-    display: grid;
-    place-items: center;
-    margin: 0 auto;
-}
+
 
 /* ------------ Login form + overlay -----------*/
 .hidden {
@@ -162,16 +157,34 @@ a {
 }
 
 
+/*---------------- Forside (index) -------------- */
+.index-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "forside-part1"
+        "forside-part2"
+        "forside-part3";
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.img-big {
+}
+
+
 /* ----------------- Kurs page ---------------- */
 
 
 .kurs-page {
-    display:grid;
-grid-template-columns: 1fr;
-grid-template-areas:
-    "kurs-part1"
-    "kurs-part2"
-    "kurs-part3";
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "kurs-part1"
+        "kurs-part2"
+        "kurs-part3";
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .kurs-page1 {
@@ -224,12 +237,14 @@ grid-template-areas: "kurs-text kurs-image";
 /* --------------- Simulering ------------------ */
 
 .simulering-page {
-    display:grid;
-grid-template-columns: 1fr;
-grid-template-areas:
-    "simulering-part1"
-    "simulering-part2"
-    "simulering-part3";
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "simulering-part1"
+        "simulering-part2"
+        "simulering-part3";
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .simulering-part1 {
@@ -289,6 +304,8 @@ grid-template-areas:
     "konsultasjon-part1"
     "konsultasjon-part2"
     "konsultasjon-part3";
+max-width: 1000px;
+margin: 0 auto;
 }
 
 .konsultasjon-part1 {
@@ -296,6 +313,7 @@ grid-template-areas:
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "konsultasjon-image konsultasjon-text";
+    margin-bottom: 1rem;
 }
 
 .konsultasjon-part2 {
@@ -303,6 +321,7 @@ grid-template-areas:
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "konsultasjon-text konsultasjon-image";
+    margin-bottom: 1rem;
 }
 
 .konsultasjon-part3 {
@@ -313,6 +332,7 @@ grid-template-areas:
     grid-template-areas:
         "konsultasjon-text"
         "konsultasjon-image";
+    margin-bottom: 1rem;
 }
 
 .konsultasjon-text {
@@ -321,7 +341,8 @@ grid-template-areas:
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    margin: 1rem;
 }
 
 .konsultasjon-img{
@@ -331,11 +352,99 @@ grid-template-areas:
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* Scale after screen size*/
+    width: 100%;
 }
+.konsultasjon-text .text-center{
+    text-align: center;
+}
+.konsultasjon-img .img-center{
+    margin: 0 auto;
+}
+
 
 /* ---------------- Om oss ---------------- */
 
+.om-oss-page {
+    display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-areas:
+    "om-oss-part1 om-oss-part2"
+}
 
+.om-oss-part1 {
+    grid-area: om-oss-part1;
+    display: flex;
+    flex-direction:column;
+    max-width: 450px;
+    /* Move the text to the right part of the section*/
+margin-left: auto;
+
+
+}
+.about-zolw-h3{
+font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin: 1rem;
+    text-align: center;
+}
+.about-zolw-p {
+    color: rgb(51, 51, 51);
+    margin: 1rem;
+    text-align: center;
+}
+.zolw-products-h3{
+font-size: 1.2rem;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+    margin: 1rem;
+    text-align: center;
+}
+.zolw-products-p {
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+
+
+.om-oss-part2 {
+    grid-area: om-oss-part2;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.card {
+    background-color:rgb(249, 249, 249);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "card-image card-text";
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 400px;
+}
+.card-image{
+    grid-area: card-image;
+border-radius: 50%;
+}
+.card-text{
+grid-area: card-text;
+}
+.card-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(51, 51, 51);
+}
+.job-title {
+    color: rgb(162, 35, 10);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.about-person {
+    font-size: 1rem;
+    text-align: left;
+    color: rgb(133, 133, 133);
+}
 
 
 /* -------------- Footer --------------- */

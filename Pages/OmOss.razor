@@ -1,19 +1,48 @@
 ﻿@page "/om-oss"
 @using web_test_b4n.Models
 
+<PageTitle>Zolw AS - Om oss</PageTitle>
+
+
 <div class="om-oss-page">
-	<div class="om-oss-part1"></div>
+	<div class="om-oss-part1">
+		@for (int i = 0; i < aboutZolw.Count; i++)
+		{
+			if (i == 0)
+			{
+				<h3 class="about-zolw-h3">@aboutZolw[i]</h3>
+			}
+			else
+			{
+				<p class="about-zolw-p">@aboutZolw[i]</p>
+			}
+		}
+		@for (int i = 0; i < zolwProducts.Count; i++)
+        {
+            if (i == 0)
+            {
+                <h3 class="zolw-products-h3">@zolwProducts[i]</h3>
+            }
+            else
+            {
+                <p class="zolw-products-p">@zolwProducts[i]</p>
+            }
+        }
+
+	</div>
 	<div class="om-oss-part2">
 		@foreach (var person in staffMembers)
 		{
 			<div class="card">
-				<img src="@person.ImageUrl" alt="@person.Name" />
+				<img class="card-image"src="@person.ImageUrl" alt="@person.Name" />
+				<div class="card-text">
 				<h3 class="card-name">@person.Name</h3>
 				<p class="job-title">@person.JobTitle</p>
 				@foreach (var about in person.About)
 				{
 					<p class="about-person">@about</p>
 				}
+				</div>
 			</div>
 		}
 	</div>
@@ -61,5 +90,15 @@
 	"I tillegg er Zolw med ute på byggeplass for å veilede og kvalitetssikre selve installeringen.",
 	"Zolw har som motto å fremme solenergi og sikre den beste kvaliteten på solenergianlegg."
 };
+
+	private List<string> zolwProducts = new List<string>
+	{
+	"Våre tjenester",
+	"Fag - og produktopplæring",
+	"Tekniske beregninger og løsningsforslag på solcelleanlegg",
+	"Tilbud- og anbudsskriving",
+	"Veiledning ved installering og montering av solcelleanlegg",
+	"Distribusjon av solcellemateriell til prosjekter ved behov"
+	};
 
 }
