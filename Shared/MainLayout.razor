@@ -8,7 +8,10 @@
             <NavLink href="">
                 <img class="title-image" src="images/zolw-liggende-rgb.webp" alt="Zolw AS" />
             </NavLink>
-            <NavLink hreg="">
+            <div class="mobile-view">
+                <MobileNavMenu />
+            </div>
+            <NavLink href="">
                 <h1 class="titlepage">Løsninger for solenergibransjen!</h1>
             </NavLink>
             <div class="language-selector">
@@ -17,17 +20,15 @@
             <div class="membersportal">
                 <LoginOverlay />
             </div>
+
         </div>
     </div>
 
-    <div class="top-navigation">
+    <div class="desktop-view">
         <CustomNavMenu />
     </div>
+
     <main>
-@*        <div class="top-row px-4">
-            <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a>
-        </div>
-*@
         <article class="content px-4">
             @Body
         </article>

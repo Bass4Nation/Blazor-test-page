@@ -1,0 +1,51 @@
+﻿<div class="mobile-nav-container">
+    <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="overlay @NavMenuCssClass">
+        <button class="close-btn" @onclick="ToggleNavMenu">
+            &times;
+        </button>
+        <nav class="navbar">
+            <ul class="no-bullet">
+                <li>
+                    <NavLink class="navbar-item" href="" Match="NavLinkMatch.All" @onclick="ToggleNavMenu">
+                       Forside
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="navbar-item" href="kurs" @onclick="ToggleNavMenu">
+                        Opplæring
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="navbar-item" href="simulering" @onclick="ToggleNavMenu">
+                     Simulering
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="navbar-item" href="konsultasjon" @onclick="ToggleNavMenu">
+                       Konsultasjon
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink class="navbar-item" href="om-oss" @onclick="ToggleNavMenu">
+                       Om oss
+                    </NavLink>
+                </li>
+            </ul>
+            <!-- Add more NavLink components for additional pages here -->
+        </nav>
+    </div>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : "active";
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}
