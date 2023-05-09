@@ -596,6 +596,7 @@ grid-area: footer-part2;
         display: flex;
         align-items: center;
         justify-content: center;
+
     }
 
     .overlay .navbar {
@@ -631,7 +632,7 @@ grid-area: footer-part2;
 
 
 
-/* Responsive layout for mobile devices */
+/* Responsive layout for mobile devices -------------------------------------- */
 @media (max-width: 767px) {
     body {
         font-size: 16px;
@@ -640,8 +641,8 @@ grid-area: footer-part2;
 
     .title-group {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
         grid-template-areas:
             "title-image navigation"
             "titlepage titlepage";
@@ -783,14 +784,14 @@ display: none;
     }
 
 
-    .om-oss-page{
+    .om-oss-page {
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
             "om-oss-part1"
             "om-oss-part2";
         /* Center */
-justify-items: center;
-align-items: center;
+        justify-items: center;
+        align-items: center;
     }
 
     .om-oss-part1, .om-oss-part2 {
@@ -802,7 +803,7 @@ align-items: center;
     }
 
 
-    }
+    
     .card {
         background-color: rgb(249, 249, 249);
         grid-template-columns: 1fr;
